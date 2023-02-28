@@ -168,6 +168,7 @@ exports.getSongBySongId = (songId) => {
 };
 
 exports.addSongByAlbumId = (albumId, data) => {
+  console.log(albumId)
   const songId = newSongId();
   songs[songId] = {
     songId,
